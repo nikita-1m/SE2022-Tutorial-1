@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <head>
+        <title>Portfolio Homepage</title>
+    </head>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href='css/style.css' type='text/css' rel='stylesheet'/>
+    <style>              
+        .hero-image {
+            background-image: url(images/purple-sky.jpg);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+
+        .hero-text {
+            font-size: 30px;
+            text-align: center;
+            position: absolute;
+            top: 27%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #333088;
+            text-shadow: 0 0 0.2em #A0B4F2;
+        }
+
+        .hero-text button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 14px 30px;
+            color: white;
+            background-color: #333088;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 17px;
+            font-family: trebuchet ms, sans-serif;
+        }
+
+        .hero-text button:hover {
+            background-color: #4c49aa;
+            text-shadow: 0 0 0.2em #A0B4F2;
+        }    
+    </style>
+    <script src="name"></script>
+    <body>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="work.html">Work Experience</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+        
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>NIKITA MOKHOV</h1>
+                <p>Western University Software Engineering</p>
+                <button onclick="window.location='about.html'">About Me</button>
+            </div>
+        </div>
+            <div class="footer">
+                <p>NIKITA'S PORTFOLIO</p>
+            </div>        
+    </body>
+
+</html>
